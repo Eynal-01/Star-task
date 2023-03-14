@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,11 +16,11 @@ using System.Windows.Shapes;
 namespace WPF_Task7
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StarUc.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StarUc : UserControl
     {
-        public MainWindow()
+        public StarUc()
         {
             InitializeComponent();
         }
