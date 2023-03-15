@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Task7"
         mc:Ignorable="d"
-        Title="Star Animation" Height="250" Width="720" Icon="starIcon.png">
+        Title="Star Animation" Height="180" Width="620" Icon="starIcon.png">
     <Grid>
-        <Button Style="{StaticResource Star}"></Button>
+        <WrapPanel Orientation="Horizontal" Name="myWrapPanel"></WrapPanel>
     </Grid>
 </Window>

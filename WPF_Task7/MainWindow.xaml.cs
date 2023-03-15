@@ -24,6 +24,12 @@ namespace WPF_Task7
         public MainWindow()
         {
             InitializeComponent();
+            int StarCount = 5;
+            for (int i = 0; i < StarCount; i++)
+            {
+                var StarUC = new StarUc();
+                myWrapPanel.Children.Add(StarUC);
+            }
         }
     }
 }
